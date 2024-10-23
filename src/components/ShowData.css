@@ -1,0 +1,64 @@
+.show-data-container {
+  padding: 20px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+.data-table th, .data-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.data-table th {
+  background-color: #f4f4f4;
+}
+
+.data-table td button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.data-table td button:last-child {
+  background-color: #dc3545;
+}
+
+.data-table td button:hover {
+  opacity: 0.8;
+}
+
+.edit-form-container {
+  margin-top: 20px;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.edit-form input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.form-buttons button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}

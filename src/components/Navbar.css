@@ -1,0 +1,27 @@
+/* src/components/Navbar.css */
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .nav-links .nav-button {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    border-radius: 5px;
+  }
+  
+  .nav-button:hover {
+    background-color: #0056b3;
+  }
+  
